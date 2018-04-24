@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDT", "FDT\FDT.csproj", "{186CE83D-EBBA-4439-8836-ED886BFE1DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDTViewer", "FDTViewer\FDTViewer.csproj", "{67CB3830-7CBF-4A40-8C94-95E1C01DF688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186CE83D-EBBA-4439-8836-ED886BFE1DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186CE83D-EBBA-4439-8836-ED886BFE1DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186CE83D-EBBA-4439-8836-ED886BFE1DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186CE83D-EBBA-4439-8836-ED886BFE1DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CB3830-7CBF-4A40-8C94-95E1C01DF688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CB3830-7CBF-4A40-8C94-95E1C01DF688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CB3830-7CBF-4A40-8C94-95E1C01DF688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CB3830-7CBF-4A40-8C94-95E1C01DF688}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA8B8AD-1E36-4E49-B3F6-870306DBBC78}
+	EndGlobalSection
+EndGlobal
