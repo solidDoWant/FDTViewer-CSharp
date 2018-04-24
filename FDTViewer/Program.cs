@@ -15,12 +15,11 @@ namespace FDTTest
 
             if (!File.Exists(args[0]))
             {
-                Console.WriteLine("File not found");
+                Console.WriteLine($"File not found: {args[0]}");
                 return;
             }
 
-            Console.WriteLine(libfdt.FDT.LoadFDT(File.ReadAllBytes(@".\ffaero.dtb")));
-            Console.ReadKey();
+            Console.WriteLine(libfdt.FDT.LoadFDT(File.ReadAllBytes(args[0])));
         }
     }
 }
